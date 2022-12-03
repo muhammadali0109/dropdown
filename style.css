@@ -1,0 +1,27 @@
+.box{
+    text-align: center;
+}
+.dropdown-content{  
+    display: none;
+}
+.box:hover .dropdown-content{
+    display: block;
+}
+.dropbtn{
+    background-color: #4caf50;
+    padding: 16px;
+    transition: width 3s;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+}
+ul>li{
+    color: black;
+    background-color: aqua;
+}
+.dropbtn:hover{
+    width: 200px;
+}
